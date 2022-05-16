@@ -1,0 +1,93 @@
+.container {
+  padding: 0;
+  margin: 0;
+}
+
+.contant {
+  height:fit-content;
+  display: flex;
+  flex-direction: column;
+}
+
+.firstcontant {
+  height: 100%;
+  background-image: url("../../../public/Images/investment.jpg");
+  background-size: cover;
+  display: flex;
+}
+
+.upcontant {
+  width: 70%;
+  padding: 40px;
+  box-sizing: content-box;
+  height: 70%;
+}
+
+.upcontant h2 {
+  font-size: 120px;
+  text-align: center;
+  padding: 40px;
+  font-weight: 5000;
+}
+
+.upcontant p {
+  font-size: 50px;
+  text-align: center;
+}
+
+.downcontant {
+  height: 30%;
+  width: 90rem;
+  margin: auto;
+}
+
+.downcontant h3 {
+  text-align: center;
+  font-size: 50px;
+  padding: 20px;
+}
+
+.downcontant p {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.investment {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.ragular-deposit {
+    display: flex;
+    flex-direction:row-reverse;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+.investment .right {
+  display: flex;
+  flex-direction: column;
+}
+
+.investment .left img {
+  height: 360px;
+  margin: 20px;
+}
+
+.ragular-deposit .right {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ragular-deposit .left img {
+    height: 360px;
+    margin: 20px;
+  }

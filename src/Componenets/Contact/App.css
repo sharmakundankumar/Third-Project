@@ -1,0 +1,26 @@
+.Contact {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  text-align: center;
+}
+
+.Contact .form {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 20px;
+  width: 30%;
+}
+
+.Contact .form input {
+  margin: 5px;
+}
+
+.Contact .form textarea {
+  margin: 5px;
+}
+
+.Contact .form button {
+  margin: 5px;
+}
